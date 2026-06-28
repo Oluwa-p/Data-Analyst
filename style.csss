@@ -314,6 +314,18 @@ h1, h2, h3{
   font-size: 14.5px;
   margin: 0 0 16px;
 }
+.project-thumb-pair{
+  display: flex;
+  gap: 2px;
+  width: calc(100% + 48px);
+  margin: -24px -24px 16px;
+}
+.project-thumb-pair img{
+  width: 50%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+}
 .project-card--media .project-thumb{
   width: calc(100% + 48px);
   max-width: calc(100% + 48px);
